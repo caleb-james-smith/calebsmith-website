@@ -1,2 +1,3 @@
 # calebsmith-website
-calebsmith website created using GitHub Pages.
+
+[calebsmith.dev](https://calebsmith.dev/) website created using GitHub Pages.
