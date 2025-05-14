@@ -9,6 +9,14 @@ h1 {
   color: #0066cc;
 }
 
+h2 {
+  color: #333;
+}
+
+.indent {
+  margin-left: 2em;
+}
+
 .navbar {
   background-color: #555;
   overflow: hidden;
