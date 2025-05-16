@@ -20,6 +20,10 @@ h2 {
 .navbar {
   background-color: #555;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .navbar ul {
