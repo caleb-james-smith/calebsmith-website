@@ -13,13 +13,32 @@ h2 {
   color: #333;
 }
 
+img {
+  width: 250px;
+  height: auto;
+}
+
 .indent {
   margin-left: 2em;
 }
 
+/* Prevent content from hiding behind navbar. */
+.content {
+  margin-top: 20px;
+}
+
 .navbar {
+  font-size: 1.2em;
+  color : white;
   background-color: #555;
   overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top : 0;
+  left : 0;
+  right : 0;
+  padding: 0;
+  z-index: 1000;
 }
 
 .navbar ul {
