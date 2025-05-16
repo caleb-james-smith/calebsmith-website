@@ -22,9 +22,22 @@ img {
   margin-left: 2em;
 }
 
+/* Prevent content from hiding behind navbar. */
+.content {
+  margin-top: 20px;
+}
+
 .navbar {
+  color : white;
   background-color: #555;
   overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top : 0;
+  left : 0;
+  right : 0;
+  padding: 0;
+  z-index: 1000;
 }
 
 .navbar ul {
