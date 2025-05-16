@@ -28,6 +28,7 @@ img {
 }
 
 .navbar {
+  font-size: 1.2em;
   color : white;
   background-color: #555;
   overflow: hidden;
