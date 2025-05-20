@@ -13,13 +13,35 @@ h2 {
   color: #333;
 }
 
-img {
-  width: 250px;
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  gap: 2em;
+}
+
+.section img {
+  max-width: 200px;
   height: auto;
+  border-radius: 8px;
+}
+
+.text {
+  flex: 1;
+  font-size: 1.0em;
 }
 
 .indent {
   margin-left: 2em;
+}
+
+/* Responsive adjustment for small screens */
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 /* Prevent content from hiding behind navbar. */
