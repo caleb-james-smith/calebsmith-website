@@ -22,9 +22,23 @@ h2 {
 }
 
 .section img {
-  max-width: 200px;
-  height: auto;
+  width: 200px;
+  aspect-ratio: 3 / 4;
   border-radius: 8px;
+}
+
+.profile-photo {
+  width: 200px;
+  aspect-ratio: 3 / 4;
+  border-radius: 8px;
+  background-image: url("images/Caleb_002.jpg");
+  background-size: cover;
+  background-position: center;
+  image-rendering: auto;
+}
+
+.profile-photo:hover {
+  background-image: url("images/Caleb_001.jpg");
 }
 
 .text {
