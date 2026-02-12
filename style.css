@@ -40,14 +40,14 @@ h2 {
   width: 200px;
   aspect-ratio: 3 / 4;
   border-radius: 8px;
-  background-image: url("images/Caleb_002.jpg");
+  background-image: url("images/people/Caleb_002.jpg");
   background-size: cover;
   background-position: center;
   image-rendering: auto;
 }
 
 .profile-photo:hover {
-  background-image: url("images/Caleb_001.jpg");
+  background-image: url("images/people/Caleb_001.jpg");
 }
 
 .projects {
