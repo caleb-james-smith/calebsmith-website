@@ -1,5 +1,18 @@
 console.log("script.js loaded successfully... party time!");
 
+// Preload profile images; run immediately with IIFE
+(function preloadProfileImages() {
+    const images = [
+        "images/people/Caleb_001.jpg",
+        "images/people/Caleb_002.jpg"
+    ];
+
+    images.forEach(src => {
+        const img = new Image();
+        img.src = src;
+    });
+})();
+
 document.addEventListener("DOMContentLoaded", function () {
     const img = document.getElementById("about-slideshow");
 
