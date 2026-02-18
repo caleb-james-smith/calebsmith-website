@@ -45,11 +45,11 @@ document.addEventListener("DOMContentLoaded", function () {
             const nextImage = new Image();
             nextImage.src = `images/people/caleb_and_katie_${paddedNumber}.jpg`;
 
-            // decode the next images before switching to it to reduce flicker on mobile
+            // Decode the next image before swapping to reduce flicker on mobile
             nextImage.decode().then(() => {
                 img.src = nextImage.src;
                 img.style.opacity = 1;
-                console.log(img.src);
+                // console.log(img.src);
             });
         }, 750);
 
