@@ -42,11 +42,17 @@ document.addEventListener("DOMContentLoaded", function () {
         img.style.opacity = 0;
 
         setTimeout(() => {
-            img.src = `images/people/caleb_and_katie_${paddedNumber}.jpg`;
-            img.style.opacity = 1;
-            // console.log(img.src);
-        }, 500);
+            const nextImage = new Image();
+            nextImage.src = `images/people/caleb_and_katie_${paddedNumber}.jpg`;
 
-    }, 2000);
+            // Decode the next image before swapping to reduce flicker on mobile
+            nextImage.decode().then(() => {
+                img.src = nextImage.src;
+                img.style.opacity = 1;
+                // console.log(img.src);
+            });
+        }, 750);
+
+    }, 3000);
 
 });
