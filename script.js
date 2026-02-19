@@ -1,10 +1,12 @@
 console.log("script.js loaded successfully... party time!");
 
-// Preload profile images; run immediately with IIFE
+// Preload images; run immediately with IIFE
 (function preloadProfileImages() {
     const images = [
         "images/people/Caleb_001.jpg",
-        "images/people/Caleb_002.jpg"
+        "images/people/Caleb_002.jpg",
+        "images/physics/CMS_image_002.jpg",
+        "images/physics/CMS_image_003.jpg"
     ];
 
     images.forEach(src => {

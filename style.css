@@ -149,6 +149,23 @@ figcaption {
   background-image: url("images/people/Caleb_001.jpg");
 }
 
+.physics-photo {
+  max-width: 600px;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+  background-image: url("images/physics/CMS_image_002.jpg");
+  background-size: cover;
+  background-position: center;
+  image-rendering: auto;
+}
+
+.physics-photo:hover {
+  background-image: url("images/physics/CMS_image_003.jpg");
+}
+
 .projects h2 {
   margin-bottom: 1em;
 }
