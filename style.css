@@ -166,6 +166,33 @@ figcaption {
   background-image: url("images/physics/CMS_image_003.jpg");
 }
 
+.hover-figure {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hover-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* stack images */
+.hover-figure .hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+/* hover effect */
+.hover-figure:hover .hover {
+  opacity: 1;
+}
+
 .projects h2 {
   margin-bottom: 1em;
 }
