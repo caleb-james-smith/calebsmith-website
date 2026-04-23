@@ -131,6 +131,24 @@ figcaption {
   border-radius: 8px;
 }
 
+.button-link {
+  display: inline-block;
+  font-size: 0.90rem;
+  background-color: #0066cc;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  transform: scale(1);
+  transition: transform 0.2s ease;
+}
+
+.button-link:hover {
+  background-color: #004d99;
+  transform: scale(1.05);
+}
+
 .about-photo {
   transition: opacity 0.75s ease-in-out;
 }
