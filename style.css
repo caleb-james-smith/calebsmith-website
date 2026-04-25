@@ -149,6 +149,13 @@ figcaption {
   transform: scale(1.05);
 }
 
+.resume-actions {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1.0rem;
+  gap: 10px;
+}
+
 .about-photo {
   transition: opacity 0.75s ease-in-out;
 }
